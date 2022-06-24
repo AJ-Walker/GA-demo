@@ -35,6 +35,6 @@ jobs:
           echo Add other actions to build,
           echo test, and deploy your project.
           
-      # Create a file named demo.txt on every push
-      - name: Create a file demo.txt
-        run: echo "demo" >> demo.txt
+      # List the file created
+      - name: List all files in current directory
+        run: ls
